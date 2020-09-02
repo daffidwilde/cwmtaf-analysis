@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sbn
-from dask import compute, delayed, get
-
 from admissions.main import plot_admissions
 from age_bar.main import plot_age_bar
 from corr_difference.main import plot_corr_differences
@@ -15,6 +13,7 @@ from corr_relative_change.main import plot_corr_relative_change
 from cost_bubble_plot.main import plot_cost_bubble
 from cost_contribution.main import plot_cost_contribution
 from cost_variation.main import plot_cost_variation
+from dask import compute, delayed, get
 from large_component_boxplots.main import plot_large_component_boxplots
 from large_component_violinplots.main import plot_large_component_violinplots
 from los_bar.main import plot_los_bar
